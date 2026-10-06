@@ -1,0 +1,91 @@
+{
+    "schema":  1,
+    "name":  "白泽插件源",
+    "updated":  "2026-10-06",
+    "plugins":  [
+                    {
+                        "id":  "web-research",
+                        "name":  "联网调研",
+                        "version":  "1.0.0",
+                        "channel":  "official",
+                        "stage":  "stable",
+                        "category":  "调研写作",
+                        "description":  "给一个题目，联网查、抓正文、交叉核对，整理成一篇带来源的笔记。",
+                        "author":  "白泽",
+                        "homepage":  "https://github.com/HDKL0802/baize-public",
+                        "license":  "MIT",
+                        "minBaize":  "0.9.20",
+                        "tags":  [
+                                     "调研",
+                                     "搜索",
+                                     "笔记"
+                                 ],
+                        "url":  "packages/web-research-1.0.0.zip",
+                        "sha256":  "b5bb8a5570a1045c49db1d92b80641a5693c28b608e5cff5e6063d310245f6f8",
+                        "size":  2984
+                    },
+                    {
+                        "id":  "device-ops",
+                        "name":  "跨端派活",
+                        "version":  "1.0.0",
+                        "channel":  "official",
+                        "stage":  "stable",
+                        "category":  "跨端设备",
+                        "description":  "把任务派到你自己的电脑或手机执行，并把回执如实带回来。",
+                        "author":  "白泽",
+                        "homepage":  "https://github.com/HDKL0802/baize-public",
+                        "license":  "MIT",
+                        "minBaize":  "0.9.20",
+                        "tags":  [
+                                     "设备",
+                                     "跨端",
+                                     "运维"
+                                 ],
+                        "url":  "packages/device-ops-1.0.0.zip",
+                        "sha256":  "05732bdb82f38dc147f2ac8e6b39cc36b5d27f1d15005f1a718f8d9f5e174ce8",
+                        "size":  1955
+                    },
+                    {
+                        "id":  "daily-brief",
+                        "name":  "每日简报",
+                        "version":  "1.0.0",
+                        "channel":  "official",
+                        "stage":  "stable",
+                        "category":  "自动化",
+                        "description":  "挂一个每天定点的任务，把待办与关注的事汇总成一篇固定路径的简报笔记。",
+                        "author":  "白泽",
+                        "homepage":  "https://github.com/HDKL0802/baize-public",
+                        "license":  "MIT",
+                        "minBaize":  "0.9.20",
+                        "tags":  [
+                                     "定时",
+                                     "简报",
+                                     "待办"
+                                 ],
+                        "url":  "packages/daily-brief-1.0.0.zip",
+                        "sha256":  "7abcc68f7e1e5f2b12d730b64c2a039e9808d528701b95e7596d84d244813809",
+                        "size":  1873
+                    },
+                    {
+                        "id":  "note-curator",
+                        "name":  "星图整理",
+                        "version":  "0.1.0",
+                        "channel":  "official",
+                        "stage":  "beta",
+                        "category":  "知识管理",
+                        "description":  "定期整理记忆星图：补上悬空的双链、按语义把同主题笔记连起来、清掉重复。",
+                        "author":  "白泽",
+                        "homepage":  "https://github.com/HDKL0802/baize-plugins",
+                        "license":  "MIT",
+                        "minBaize":  "0.9.22",
+                        "tags":  [
+                                     "笔记",
+                                     "星图",
+                                     "整理"
+                                 ],
+                        "url":  "packages/note-curator-0.1.0.zip",
+                        "sha256":  "6b6faab655eff7fda2a7d22cabe70423099635fa9648383bb10877aa954cf6e2",
+                        "size":  2278
+                    }
+                ]
+}
