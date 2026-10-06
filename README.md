@@ -61,6 +61,12 @@ curl -X POST http://<白泽后端>/api/agent/plugins -H 'Content-Type: applicati
   -d '{"action":"addSource","name":"白泽插件源","url":"https://raw.githubusercontent.com/HDKL0802/baize-plugins/main/index.json"}'
 ```
 
+**raw 被墙 / 连不上时**，换 jsDelivr 镜像（内容一样，国内可直连）：
+
+```
+https://cdn.jsdelivr.net/gh/HDKL0802/baize-plugins@main/index.json
+```
+
 > 离线/内网也能用：地址填本机路径（如 `D:\baize-plugins\index.json`）同样有效。
 > 白泽后端**自带一份内置官方源**（随二进制分发，离线可用），装不了网的时候也有官方插件可用。
 
